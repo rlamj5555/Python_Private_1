@@ -1,0 +1,19 @@
+1. 실습 환경
+
+(1) 간단한 실습은 파이썬 대화형 인터프리터 이용
+ > [시작 - 프로그램 - 파이썬 3.7 - 파이썬 3.7(32 비트)]
+ > 변수에 문자 대입하고 출력
+ >>> a = "Python"
+ >>> a = print(1)
+Python
+
+(2)	프로그램 작성 및 저장은 파이썬 idle 에디터 이용
+ > [시작 - 프로그램 - Python 3.7 - idle]
+ > #hello.py
+ > print("Hello world")
+
+(3) 만든 프로그램 실행은 명령 프롬프트 이용
+> [윈도우 키 + R - 실행창에 cmd 입력]
+> 
+C:\doit> python hello.py
+Hello World
