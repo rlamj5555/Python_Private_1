@@ -26,6 +26,11 @@ for len in range(1,6):
             zFile.extractall(pwd=passwd.encode())
             print("비밀번호는 {passwd} 입니다.")
             # 교재 내 'f' 삭제 필요 : 'f' 문자열 의미(질문)
+            # 3.6부터 f string 표현 방법 생김
+            # https://github.com/OhJiMin/minjiminju/blob/master/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC%2040%EA%B0%9C%EC%9D%98%20%EC%9E%91%ED%92%88%EB%93%A4/5.%20%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EC%A0%95%EB%B3%B4%20%ED%99%95%EC%9D%B8/main5-1%2C2%2C3.py
+            # print(f"CPU 속도 : {cpu_current_ghz}GHz") 
+            # # python3.6 이상부터 f-string 표현 방법
+            # print("CPU 속도 :",cpu_current_ghz,"GHz")
             
             break
         except:
